@@ -1,0 +1,7 @@
+FROM node:12
+WORKDIR /docker_first_project
+COPY package.json /docker_first_project
+RUN npm install
+COPY . /docker_first_project
+CMD node server.js
+EXPOSE 3333

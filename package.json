@@ -1,0 +1,14 @@
+{
+  "name": "docker_first_project",
+  "version": "1.0.0",
+  "description": "Running it on docker container",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zohaib",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
